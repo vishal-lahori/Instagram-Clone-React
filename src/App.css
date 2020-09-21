@@ -14,7 +14,7 @@
   z-index: 2;
   background-color: white;
   border-bottom: 1px solid lightgray;
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   height: 55px;
   -webkit-transition: height 0.2s ease-in-out;
@@ -26,18 +26,14 @@
   flex-direction: row;
   height: 50px;
   width: 70%;
-  margin: 0 auto;
-  padding: 16px 40px;
+  padding-top: 15px;
 }
 
 .app_headerImage {
-  display: block;
+  display: flex;
   width: 120px;
   height: 30px;
-  text-indent: -1000%;
-  background-size: 405px 379px;
-  background-repeat: no-repeat;
-  background-position: -176px 0px;
+  margin-left: 120px;
 }
 
 .app_posts {
@@ -59,4 +55,91 @@
 .app_signup {
   display: flex;
   flex-direction: column;
+}
+
+.app_signup button {
+  background-color: #67bbf3;
+  color: white;
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.app_signup input {
+  border: 0.5px black solid;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.app_signup button:hover {
+  background-color: #0095f6;
+  color: white;
+}
+
+.app_signin {
+  display: flex;
+  flex-direction: column;
+}
+
+.app_signin button {
+  background-color: #67bbf3;
+  color: white;
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.app_signin button:hover {
+  background-color: #0095f6;
+  color: white;
+}
+
+.app_signin input {
+  border: 0.5px black solid;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.app_instaImage {
+  display: block;
+  width: 120px;
+  height: 30px;
+}
+
+.app_logInBtn {
+  height: 30px;
+  width: 65px;
+  background-color: #0095f6;
+  border-radius: 2px;
+}
+
+.app_logInBtn button {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    Helvetica, sans-serif;
+}
+
+.app_signUpBtn {
+  height: 30px;
+  width: 75px;
+  border-radius: 2px;
+}
+.app_signUpBtn button {
+  color: #0095f6;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    Helvetica, sans-serif;
+}
+
+.app_loginContainer {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
 }

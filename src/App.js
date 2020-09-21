@@ -113,23 +113,26 @@ function App() {
         <div style={modalStyle} className={classes.paper}>
           <form className="app_signup">
             <center>
-              <img className="app_headerImage" src="" />
+              <img
+                className="app_instaImage"
+                src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"
+              />
             </center>
 
             <Input
-              placeholder="username"
+              placeholder="Enter Your Username"
               text="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
             <Input
-              placeholder="email"
+              placeholder="Enter Your Email"
               text="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <Input
-              placeholder="password"
+              placeholder="Enter Your Password"
               text="text"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -137,32 +140,39 @@ function App() {
             <Button type="submit" onClick={signUp}>
               Sign Up
             </Button>
+            <h5>
+              Please Logout and Login again after singing up for better results
+            </h5>
           </form>
         </div>
       </Modal>
 
       <Modal open={openSignIn} onClose={() => setOpenSignIn(false)}>
         <div style={modalStyle} className={classes.paper}>
-          <form className="app_signup">
+          <form className="app_signin">
             <center>
-              <img className="app_headerImage" src="" />
+              <img
+                className="app_instaImage"
+                src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"
+              />
             </center>
 
             <Input
-              placeholder="email"
-              text="text"
+              placeholder="Enter Your Email"
+              text="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <Input
-              placeholder="password"
+              placeholder="Enter Your Password"
               text="text"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
             <Button type="submit" onClick={signIn}>
-              Sign In
+              Log In
             </Button>
+            <h5>Hit refresh after singing in</h5>
           </form>
         </div>
       </Modal>
@@ -179,8 +189,12 @@ function App() {
           <Button onClick={() => auth.signOut()}>Logout</Button>
         ) : (
           <div className="app_loginContainer">
-            <Button onClick={() => setOpenSignIn(true)}>Sign In</Button>
-            <Button onClick={() => setOpen(true)}>Sign Up</Button>
+            <a className="app_logInBtn">
+              <Button onClick={() => setOpenSignIn(true)}>Log In</Button>
+            </a>
+            <a className="app_signUpBtn">
+              <Button onClick={() => setOpen(true)}>Sign Up</Button>
+            </a>
           </div>
         )}
       </div>
@@ -202,7 +216,7 @@ function App() {
 
           <div className="app_postsRight">
             <InstagramEmbed
-              url="https://www.instagram.com/p/B49pYduBw_q/?utm_source=ig_web_copy_link"
+              url="https://www.instagram.com/p/BzyBCoGhcaU/?utm_source=ig_web_copy_link"
               maxWidth={320}
               hideCaption={false}
               containerTagName="div"
@@ -217,7 +231,7 @@ function App() {
             {user?.displayName ? (
               <ImageUpload username={user.displayName} />
             ) : (
-              <h3>Sorry You need to login to upload</h3>
+              <h3>Login to see and upload images and videos</h3>
             )}
           </div>
 

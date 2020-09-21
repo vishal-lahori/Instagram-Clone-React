@@ -1,11 +1,33 @@
 .imageupload {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: lavender;
+}
+
+.imageupload input {
+  margin: 10px;
+  overflow: auto;
+}
+
+.imageupload h4 {
+  margin-left: 10px;
+}
+.imageupload button {
+  background-color: #0095f6;
+  width: 90px;
+  height: 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 3px;
+  align-self: center;
 }
 
 .imageupload_progress {
