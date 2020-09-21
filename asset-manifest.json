@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Instagram-Clone-React/static/css/main.9082e93d.chunk.css",
-    "main.js": "/Instagram-Clone-React/static/js/main.33f3e4c2.chunk.js",
-    "main.js.map": "/Instagram-Clone-React/static/js/main.33f3e4c2.chunk.js.map",
+    "main.css": "/Instagram-Clone-React/static/css/main.51728229.chunk.css",
+    "main.js": "/Instagram-Clone-React/static/js/main.07176503.chunk.js",
+    "main.js.map": "/Instagram-Clone-React/static/js/main.07176503.chunk.js.map",
     "runtime-main.js": "/Instagram-Clone-React/static/js/runtime-main.35354052.js",
     "runtime-main.js.map": "/Instagram-Clone-React/static/js/runtime-main.35354052.js.map",
     "static/js/2.6d85803c.chunk.js": "/Instagram-Clone-React/static/js/2.6d85803c.chunk.js",
     "static/js/2.6d85803c.chunk.js.map": "/Instagram-Clone-React/static/js/2.6d85803c.chunk.js.map",
     "index.html": "/Instagram-Clone-React/index.html",
-    "precache-manifest.269f2c995452ea46737d7b8c027771b8.js": "/Instagram-Clone-React/precache-manifest.269f2c995452ea46737d7b8c027771b8.js",
+    "precache-manifest.a9cb01f6a38c2fa53010b251de14a773.js": "/Instagram-Clone-React/precache-manifest.a9cb01f6a38c2fa53010b251de14a773.js",
     "service-worker.js": "/Instagram-Clone-React/service-worker.js",
-    "static/css/main.9082e93d.chunk.css.map": "/Instagram-Clone-React/static/css/main.9082e93d.chunk.css.map",
+    "static/css/main.51728229.chunk.css.map": "/Instagram-Clone-React/static/css/main.51728229.chunk.css.map",
     "static/js/2.6d85803c.chunk.js.LICENSE.txt": "/Instagram-Clone-React/static/js/2.6d85803c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.35354052.js",
     "static/js/2.6d85803c.chunk.js",
-    "static/css/main.9082e93d.chunk.css",
-    "static/js/main.33f3e4c2.chunk.js"
+    "static/css/main.51728229.chunk.css",
+    "static/js/main.07176503.chunk.js"
   ]
 }
